@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 main()
@@ -8,7 +8,7 @@ main()
 	int number, sum, copyNumber;
 	int residualPart;
 
-	printf("Введите целое число: ");
+	printf("Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
 	scanf("%d", &number);
 
 	copyNumber = number;
@@ -22,8 +22,8 @@ main()
 		sum += residualPart;
 	}
 
-	printf("\nСумма цифр числа %d равна %d.", copyNumber, sum);
+	printf("\nРЎСѓРјРјР° С†РёС„СЂ С‡РёСЃР»Р° %d СЂР°РІРЅР° %d.", copyNumber, sum);
 
-	printf("\n\nВсё, готово!\n");
-	printf("Программа завершена.\n");
+	printf("\n\nР’СЃС‘, РіРѕС‚РѕРІРѕ!\n");
+	printf("РџСЂРѕРіСЂР°РјРјР° Р·Р°РІРµСЂС€РµРЅР°.\n");
 }

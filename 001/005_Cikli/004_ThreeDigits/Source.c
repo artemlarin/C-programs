@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 main()
@@ -7,7 +7,7 @@ main()
 
 	int number, count, quantity;
 
-	printf("Введите число: ");
+	printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
 	scanf("%d", &number);
 
 	count = 0;
@@ -18,16 +18,16 @@ main()
 		count++;
 	}
 
-	printf("\nВаше число состоит из 3 цифр: ");
+	printf("\nР’Р°С€Рµ С‡РёСЃР»Рѕ СЃРѕСЃС‚РѕРёС‚ РёР· 3 С†РёС„СЂ: ");
 
 	quantity = (count == 3);
 
 	if (quantity)
-		printf("Да.\n");
+		printf("Р”Р°.\n");
 	else
-		printf("Нет.\n");
+		printf("РќРµС‚.\n");
 
-	printf("\nВсё, готово!\n");
-	printf("Программа завершена.\n");
+	printf("\nР’СЃС‘, РіРѕС‚РѕРІРѕ!\n");
+	printf("РџСЂРѕРіСЂР°РјРјР° Р·Р°РІРµСЂС€РµРЅР°.\n");
 
 }

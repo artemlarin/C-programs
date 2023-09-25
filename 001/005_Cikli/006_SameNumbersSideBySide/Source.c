@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 main()
@@ -7,9 +7,9 @@ main()
 
 	int number, temp;
 
-	printf("Введите целое число: ");
+	printf("Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
 	scanf("%d", &number);
-	printf("Есть две одинаковые цифры, стоящияе рядом: ");
+	printf("Р•СЃС‚СЊ РґРІРµ РѕРґРёРЅР°РєРѕРІС‹Рµ С†РёС„СЂС‹, СЃС‚РѕСЏС‰РёСЏРµ СЂСЏРґРѕРј: ");
 
 	while (number != 0)
 	{
@@ -18,14 +18,14 @@ main()
 
 		if (number % 10 == temp)
 		{
-			printf("Да");
+			printf("Р”Р°");
 			break;
 		}
 	}
 
 	if (!number)
-		printf("Нет");
+		printf("РќРµС‚");
 
-	printf("\n\nВсё, готово!");
-	printf("\nПрограмма завершена.\n");
+	printf("\n\nР’СЃС‘, РіРѕС‚РѕРІРѕ!");
+	printf("\nРџСЂРѕРіСЂР°РјРјР° Р·Р°РІРµСЂС€РµРЅР°.\n");
 }

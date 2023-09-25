@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 main()
@@ -7,9 +7,9 @@ main()
 	
 	int number, cout;
 
-	printf("Введите число: ");
+	printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
 	scanf("%d", &number);
-	printf("В веденом числе ровно 1 цифра 9: ");
+	printf("Р’ РІРµРґРµРЅРѕРј С‡РёСЃР»Рµ СЂРѕРІРЅРѕ 1 С†РёС„СЂР° 9: ");
 
 	cout = 0;
 
@@ -22,12 +22,12 @@ main()
 	}
 
 	if (cout == 1)
-		printf("Да.");
+		printf("Р”Р°.");
 	else if (cout > 1)
-		printf("Нет.");
+		printf("РќРµС‚.");
 	else
-		printf("Цифра 9 не найдена.");
+		printf("Р¦РёС„СЂР° 9 РЅРµ РЅР°Р№РґРµРЅР°.");
 
-	printf("\n\nВсё, готово!");
-	printf("\nПрограмма завершена.\n");
+	printf("\n\nР’СЃС‘, РіРѕС‚РѕРІРѕ!");
+	printf("\nРџСЂРѕРіСЂР°РјРјР° Р·Р°РІРµСЂС€РµРЅР°.\n");
 }

@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 main()
@@ -7,9 +7,9 @@ main()
 
 	int number, x;
 
-	printf("Введите целое число: ");
+	printf("Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
 	scanf("%d", &number);
-	printf("Перевернутое число: ");
+	printf("РџРµСЂРµРІРµСЂРЅСѓС‚РѕРµ С‡РёСЃР»Рѕ: ");
 
 	while (number != 0)
 	{
@@ -18,6 +18,6 @@ main()
 		number /= 10;
 	}
 
-	printf("\n\nВсё, готово!");
-	printf("\nПрограмма завершена.\n");
+	printf("\n\nР’СЃС‘, РіРѕС‚РѕРІРѕ!");
+	printf("\nРџСЂРѕРіСЂР°РјРјР° Р·Р°РІРµСЂС€РµРЅР°.\n");
 }

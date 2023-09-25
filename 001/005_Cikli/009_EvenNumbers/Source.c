@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 main()
@@ -7,9 +7,9 @@ main()
 
 	int number, countNumber, countEven, x;
 
-	printf("Введите число: ");
+	printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
 	scanf("%d", &number);
-	printf("В данном числе все числа четные: ");
+	printf("Р’ РґР°РЅРЅРѕРј С‡РёСЃР»Рµ РІСЃРµ С‡РёСЃР»Р° С‡РµС‚РЅС‹Рµ: ");
 
 	countNumber = 0;
 	countEven = 0;
@@ -24,11 +24,11 @@ main()
 	}
 
 	if (countNumber == countEven)
-		printf("Да");
+		printf("Р”Р°");
 	else
-		printf("Нет");
+		printf("РќРµС‚");
 
-	printf("\n\nВсё, готово!");
-	printf("\nПрограмма завершена.\n");
+	printf("\n\nР’СЃС‘, РіРѕС‚РѕРІРѕ!");
+	printf("\nРџСЂРѕРіСЂР°РјРјР° Р·Р°РІРµСЂС€РµРЅР°.\n");
 
 }

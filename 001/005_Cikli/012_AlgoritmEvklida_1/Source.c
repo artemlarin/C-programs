@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 main()
@@ -7,7 +7,7 @@ main()
 
 	int a, b;
 
-	printf("Введит два числа: ");
+	printf("Р’РІРµРґРёС‚ РґРІР° С‡РёСЃР»Р°: ");
 	scanf("%d%d", &a, &b);
 
 	while (a != b)
@@ -18,8 +18,8 @@ main()
 			b -= a;
 	}
 
-	printf("НОД введённых чисел: %d", a);
+	printf("РќРћР” РІРІРµРґС‘РЅРЅС‹С… С‡РёСЃРµР»: %d", a);
 
-	printf("\n\nВсё, готово!");
-	printf("\nПрограмма завершена.\n");
+	printf("\n\nР’СЃС‘, РіРѕС‚РѕРІРѕ!");
+	printf("\nРџСЂРѕРіСЂР°РјРјР° Р·Р°РІРµСЂС€РµРЅР°.\n");
 }

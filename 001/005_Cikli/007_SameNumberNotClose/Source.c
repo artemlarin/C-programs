@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 main()
@@ -8,10 +8,10 @@ main()
 	int number, firstNumber, cout;
 	int	numberToCheck;
 
-	printf("Введите целое число: ");
+	printf("Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
 	scanf("%d", &number);
 
-	printf("Есть две одинаковые цифры, НЕ стоящие рядом: ");
+	printf("Р•СЃС‚СЊ РґРІРµ РѕРґРёРЅР°РєРѕРІС‹Рµ С†РёС„СЂС‹, РќР• СЃС‚РѕСЏС‰РёРµ СЂСЏРґРѕРј: ");
 
 	firstNumber = number % 10;
 	cout = 0;
@@ -26,10 +26,10 @@ main()
 	}
 
 	if (cout)
-		printf("Да");
+		printf("Р”Р°");
 	else
-		printf("Нет");
+		printf("РќРµС‚");
 
-	printf("\n\nВсё, готово!");
-	printf("\nПрограмма завершена.\n");
+	printf("\n\nР’СЃС‘, РіРѕС‚РѕРІРѕ!");
+	printf("\nРџСЂРѕРіСЂР°РјРјР° Р·Р°РІРµСЂС€РµРЅР°.\n");
 }
